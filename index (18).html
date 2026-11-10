@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mr Sandless Mobile | Hardwood Floor Refinishing in Spanish Fort, AL</title>
+<meta name="description" content="Dust-free hardwood floor refinishing, color renewal and kitchen floor refinishing in Spanish Fort, AL. Open 24/7. Call (251) 423-6497.">
+<link rel="icon" href="https://mrsandlessmobile.com/wp-content/uploads/2025/11/cropped-logo.webp">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#0b1220;--navy:#0f1b33;--navy2:#16264a;--bg:#f5f7fb;--card:#fff;--acc:#ff9f1c;--acc2:#ff6b2c;--blue:#3b6cff;--text:#1c2638;--mute:#5d6b82;--line:#e3e8f2;--r:22px;--sh:0 18px 50px rgba(15,27,51,.10)}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+::selection{background:var(--acc);color:#111}
+::-moz-selection{background:var(--acc);color:#111}
+body{font-family:'Inter',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;overflow-x:hidden}
+h1,h2,h3,.brand b{font-family:'Sora','Inter',sans-serif;line-height:1.12;font-weight:700;letter-spacing:-.02em}
+img,video{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.wrap{width:min(1200px,92%);margin:auto}
+#intro{position:fixed;inset:0;z-index:999;background:radial-gradient(circle at 50% 40%,#1b2f5c,#060b16);display:grid;place-items:center;perspective:900px;transition:opacity .9s,visibility .9s}
+#intro.done{opacity:0;visibility:hidden}
+.cube{width:150px;height:150px;position:relative;transform-style:preserve-3d;animation:spin 4s ease-in-out infinite}
+.cube i{position:absolute;inset:0;border:1.5px solid var(--acc);border-radius:18px;background:rgba(255,159,28,.1);display:grid;place-items:center}
+.cube i img{width:70%;filter:drop-shadow(0 0 14px rgba(255,159,28,.7))}
+.cube i:nth-child(1){transform:translateZ(75px)}.cube i:nth-child(2){transform:rotateY(180deg) translateZ(75px)}
+.cube i:nth-child(3){transform:rotateY(90deg) translateZ(75px)}.cube i:nth-child(4){transform:rotateY(-90deg) translateZ(75px)}
+.cube i:nth-child(5){transform:rotateX(90deg) translateZ(75px)}.cube i:nth-child(6){transform:rotateX(-90deg) translateZ(75px)}
+@keyframes spin{0%{transform:rotateX(-20deg) rotateY(0)}100%{transform:rotateX(-20deg) rotateY(360deg)}}
+.intro-t{position:absolute;bottom:22%;text-align:center;letter-spacing:.3em;color:#fff;font-size:.85rem;font-weight:600}
+.bar{width:220px;height:3px;background:#ffffff22;margin:14px auto 0;border-radius:3px;overflow:hidden}.bar span{display:block;height:100%;background:linear-gradient(90deg,var(--acc),var(--acc2));animation:ld 2.4s forwards}
+@keyframes ld{from{width:0}to{width:100%}}
+header{position:fixed;top:12px;left:0;right:0;z-index:50}
+.nav{display:flex;align-items:center;justify-content:space-between;height:78px;padding:0 22px;background:rgba(255,255,255,.88);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.7);border-radius:999px;box-shadow:var(--sh)}
+.brand{display:flex;align-items:center;gap:12px}
+.brand img{height:56px;width:auto;object-fit:contain}
+.brand b{font-size:1.25rem;color:var(--navy);line-height:1}
+.brand small{display:block;font-family:'Inter';font-size:.66rem;color:var(--mute);letter-spacing:.2em;margin-top:3px;font-weight:600}
+nav ul{display:flex;gap:6px;list-style:none;align-items:center}
+nav a{font-size:.9rem;font-weight:600;color:var(--text);padding:9px 15px;border-radius:999px;transition:.25s;display:block}
+nav a:hover,nav a.on{background:var(--navy);color:#fff}
+.dd{position:relative}
+.dd>div{position:absolute;top:100%;left:0;min-width:270px;background:#fff;border:1px solid var(--line);border-radius:18px;padding:10px;margin-top:10px;opacity:0;visibility:hidden;transform:translateY(10px) rotateX(-12deg);transform-origin:top;transition:.3s;box-shadow:var(--sh)}
+.dd:hover>div,.dd:focus-within>div{opacity:1;visibility:visible;transform:none}
+.dd>div a{border-radius:12px}
+.btn{display:inline-block;padding:15px 32px;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-weight:700;border-radius:999px;transition:.3s;box-shadow:0 12px 30px rgba(255,107,44,.35);cursor:pointer;border:0;font:inherit;font-weight:700}
+.btn:hover{transform:translateY(-3px) scale(1.03);box-shadow:0 18px 38px rgba(255,107,44,.45)}
+.btn.ghost{background:transparent;border:2px solid currentColor;box-shadow:none;color:var(--navy)}
+.btn.ghost:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+.burger{display:none;background:var(--navy);border:0;color:#fff;font-size:1.3rem;padding:8px 14px;border-radius:12px}
+.page{display:none;padding-top:0;min-height:100vh}
+.page.on{display:block;animation:pin .8s cubic-bezier(.2,.8,.2,1)}
+@keyframes pin{from{opacity:0;transform:perspective(1200px) rotateX(5deg) translateY(30px)}to{opacity:1;transform:none}}
+section{padding:110px 0;position:relative}
+.alt{background:#fff}
+.dark{background:var(--navy);color:#fff}.dark .lead,.dark .box p{color:#b7c3dd}
+.kick{display:inline-block;color:var(--acc2);font-size:.82rem;font-weight:700;margin-bottom:14px;background:#fff3e6;padding:6px 14px;border-radius:999px}
+h2{font-size:clamp(2.1rem,4.2vw,3.3rem);margin-bottom:18px;color:var(--navy)}
+.dark h2{color:#fff}
+.lead{color:var(--mute);max-width:640px}
+.head{margin-bottom:56px}
+.center{text-align:center}.center .lead{margin:auto}
+.hero{min-height:100vh;display:flex;align-items:center;padding:140px 0 80px;overflow:hidden;position:relative;color:#fff;background:var(--ink)}
+.hero video,.hero .poster{position:absolute;inset:0;z-index:0;overflow:hidden}
+.hero .poster i{position:absolute;inset:0;background-size:cover;background-position:center;opacity:0;animation:slide 24s infinite}
+@keyframes slide{0%{opacity:0;transform:scale(1)}6%{opacity:1}25%{opacity:1}31%{opacity:0;transform:scale(1.14)}100%{opacity:0;transform:scale(1.14)}}
+.hero::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(100deg,rgba(6,11,22,.9) 20%,rgba(6,11,22,.45) 70%,rgba(6,11,22,.7))}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center}
+.hero .kick{background:rgba(255,159,28,.18);color:#ffc46b}
+.hero h1{font-size:clamp(2.8rem,6vw,5.2rem);margin-bottom:22px}
+.hero p{color:#d3dcf0;font-size:1.12rem;max-width:540px;margin-bottom:34px}
+.hero .btn.ghost{color:#fff}.hero .btn.ghost:hover{background:#fff;color:var(--navy)}
+.cta{display:flex;gap:16px;flex-wrap:wrap}
+.stage{perspective:1100px}
+.tilt{transform-style:preserve-3d;transition:transform .15s}
+.hero-img{position:relative;transform-style:preserve-3d}
+.hero-img img{width:100%;aspect-ratio:4/4.6;object-fit:cover;border-radius:28px;border:1px solid #ffffff44;box-shadow:0 40px 90px #000a}
+.badge{position:absolute;left:-30px;bottom:34px;background:rgba(255,255,255,.14);backdrop-filter:blur(16px);border:1px solid #ffffff55;border-radius:18px;padding:16px 22px;transform:translateZ(80px);color:#fff;font-size:.9rem}
+.badge b{font-family:'Sora';font-size:1.5rem;display:block;line-height:1.2}
+.grid{display:grid;gap:26px}
+.g4{grid-template-columns:repeat(4,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g2{grid-template-columns:repeat(2,1fr)}
+.scard{background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;transform-style:preserve-3d;transition:transform .2s,box-shadow .3s;display:flex;flex-direction:column;box-shadow:var(--sh)}
+.scard:hover{box-shadow:0 26px 60px rgba(255,107,44,.2)}
+.scard img{height:220px;width:100%;object-fit:cover;transition:transform .6s}
+.scard:hover img{transform:scale(1.08)}
+.scard div{padding:24px;display:flex;flex-direction:column;gap:10px;flex:1}
+.scard h3{font-size:1.25rem;color:var(--navy)}
+.scard p{color:var(--mute);font-size:.93rem;flex:1}
+.scard a.more{color:var(--acc2);font-weight:700;font-size:.9rem}
+.sc{opacity:0;transform:perspective(1000px) rotateX(16deg) translateY(50px);transition:opacity .9s,transform .9s cubic-bezier(.2,.8,.2,1)}
+.sc.in{opacity:1;transform:none}
+.box{padding:34px;border:1px solid var(--line);background:var(--card);border-radius:var(--r);box-shadow:var(--sh);transform-style:preserve-3d}
+.dark .box{background:var(--navy2);border-color:#ffffff18;box-shadow:none}
+.box h3{font-size:1.25rem;color:var(--navy);margin-bottom:8px}
+.dark .box h3{color:#fff}
+.box p{color:var(--mute);font-size:.95rem}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.split img{width:100%;aspect-ratio:5/4;object-fit:cover;border-radius:28px;box-shadow:var(--sh)}
+.split p{color:var(--mute);margin-bottom:16px}
+.ticks{list-style:none;margin:18px 0 28px}.ticks li{padding:7px 0 7px 34px;position:relative;font-weight:500}
+.ticks li::before{content:"✓";position:absolute;left:0;top:8px;width:22px;height:22px;border-radius:50%;background:linear-gradient(135deg,var(--acc),var(--acc2));color:#fff;font-size:.75rem;display:grid;place-items:center}
+.stars{color:var(--acc);letter-spacing:3px;margin-bottom:10px}
+.rev p{font-style:italic;color:var(--text)!important;margin-bottom:14px}
+.rev span{color:var(--navy);font-weight:700;font-size:.88rem}
+details{border:1px solid var(--line);background:var(--bg);border-radius:16px;margin-bottom:12px}
+summary{padding:20px 26px;cursor:pointer;font-weight:700;list-style:none;display:flex;justify-content:space-between;color:var(--navy)}
+summary::after{content:"+";color:var(--acc2);font-size:1.4rem;line-height:1}
+details[open] summary::after{content:"–"}
+details p{padding:0 26px 22px;color:var(--mute)}
+.banner{padding:190px 0 90px;background:linear-gradient(180deg,rgba(6,11,22,.82),rgba(15,27,51,.92)),var(--bimg,linear-gradient(135deg,#0f1b33,#16264a)) center/cover;color:#fff}
+.banner h1{font-size:clamp(2.6rem,5.6vw,4.6rem);max-width:820px}
+.banner p{color:#c9d4ec;max-width:600px;margin-top:16px}
+.banner .kick{background:rgba(255,159,28,.18);color:#ffc46b}
+.steps{counter-reset:s}.steps .box{counter-increment:s}
+.steps .box::before{content:counter(s);font-family:'Sora';font-size:1.1rem;color:#fff;background:linear-gradient(135deg,var(--acc),var(--acc2));width:42px;height:42px;border-radius:12px;display:grid;place-items:center;margin-bottom:14px}
+.chips{display:flex;flex-wrap:wrap;gap:12px}
+.chips a{padding:12px 24px;border:1px solid var(--line);background:#fff;border-radius:999px;font-weight:600;transition:.3s;box-shadow:0 6px 18px rgba(15,27,51,.05)}
+.chips a:hover{background:var(--navy);color:#fff;transform:translateY(-4px)}
+.gal{columns:3;column-gap:20px}
+.gal img{width:100%;margin-bottom:20px;border-radius:20px;box-shadow:var(--sh);transition:.4s}
+.gal img:hover{transform:perspective(800px) rotateY(-4deg) scale(1.03)}
+form{display:grid;gap:16px}
+input,textarea,select{width:100%;padding:16px 20px;background:#fff;border:1px solid var(--line);border-radius:14px;color:var(--text);font:inherit}
+input:focus,textarea:focus,select:focus{border-color:var(--acc);outline:0;box-shadow:0 0 0 4px rgba(255,159,28,.2)}
+.info div{padding:20px 0;border-bottom:1px solid var(--line)}
+.info small{color:var(--acc2);font-weight:700;display:block}
+.info a:hover{color:var(--acc2)}
+footer{background:var(--ink);color:#fff;padding:80px 0 26px;border-radius:40px 40px 0 0}
+.fg{display:grid;grid-template-columns:1.4fr 1fr 1.3fr;gap:50px}
+footer h4{font-family:'Sora';font-size:1.15rem;margin-bottom:14px}
+footer li{list-style:none;padding:3px 0;color:#9fb0cf}
+footer a:hover{color:var(--acc)}
+footer img{height:70px;margin-bottom:12px}
+.copy{margin-top:46px;padding-top:20px;border-top:1px solid #ffffff18;color:#9fb0cf;font-size:.85rem;text-align:center}
+#prog{position:fixed;top:0;left:0;height:4px;background:linear-gradient(90deg,var(--acc),var(--acc2));z-index:100;width:0}
+@media(max-width:980px){
+.burger{display:block}
+nav{position:absolute;top:90px;left:0;right:0;background:#fff;border-radius:24px;box-shadow:var(--sh);max-height:0;overflow:hidden;transition:max-height .5s}
+nav.open{max-height:80vh;overflow:auto}
+nav ul{flex-direction:column;align-items:stretch;padding:16px;gap:4px}
+.dd>div{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;border:0;padding:0 0 0 12px;margin:0}
+.hero .wrap,.split,.fg{grid-template-columns:1fr}.g4,.g3{grid-template-columns:1fr 1fr}.gal{columns:2}
+.brand b{font-size:1.05rem}.brand img{height:46px}.badge{left:10px}.stage{display:none}
+}
+@media(max-width:600px){.g4,.g3,.g2{grid-template-columns:1fr}.gal{columns:1}section{padding:70px 0}.brand small{display:none}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.sc{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<div id="prog"></div>
+<div id="intro"><div><div class="cube"><i><img src="https://mrsandlessmobile.com/wp-content/uploads/2025/11/cropped-logo.webp" alt=""></i><i><img src="https://mrsandlessmobile.com/wp-content/uploads/2025/11/cropped-logo.webp" alt=""></i><i></i><i></i><i></i><i></i></div></div>
+<div class="intro-t">MR SANDLESS MOBILE<div class="bar"><span></span></div></div></div>
+
+<header><div class="wrap nav">
+<a href="#home" class="brand"><img src="https://mrsandlessmobile.com/wp-content/uploads/2025/11/cropped-logo.webp" alt="Mr Sandless Mobile logo"><span><b>Mr Sandless Mobile</b><small>FLOOR REFINISHING</small></span></a>
+<button class="burger" aria-label="Menu" onclick="document.querySelector('nav').classList.toggle('open')">☰</button>
+<nav><ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About Us</a></li>
+<li class="dd"><a href="#services">Services</a><div>
+<a href="#hardwood-floors">Hardwood Floors</a><a href="#floor-refinishing">Floor Refinishing</a><a href="#restore-colors">Restore Colors</a><a href="#kitchen-floor-refinishing">Kitchen Floor Refinishing</a></div></li>
+<li><a href="#areas">Service Areas</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact Us</a></li>
+</ul></nav></div></header>
+
+<main id="app">
+<!-- HOME -->
+<div class="page" id="home">
+<div class="hero">
+<!-- HERO VIDEO: put your HD hardwood-floor video in the repo as hero.mp4 (or paste any .mp4 link below) -->
+<div class="poster"><i style="background-image:url('https://avatars.mds.yandex.net/i?id=f1854a978521935bb61db57b220f4692e9d37538-4984071-images-thumbs&n=13');animation-delay:0s"></i><i style="background-image:url('https://avatars.mds.yandex.net/i?id=666b89608195652392b82de19d1d0bfa582ed151-4901907-images-thumbs&n=13');animation-delay:6s"></i><i style="background-image:url('https://avatars.mds.yandex.net/i?id=77a26d280439a2161c24c70492081cb58ba62b8d2581f1ee-12497467-images-thumbs&n=13');animation-delay:12s"></i><i style="background-image:url('https://miro.medium.com/v2/resize:fit:1358/1*gORl7ey78cfdJrFhjYu-7A.jpeg');animation-delay:18s"></i></div>
+<video id="heroVideo" style="z-index:0" autoplay muted loop playsinline preload="auto" poster="" aria-hidden="true"><source src="hero.mp4" type="video/mp4"></video>
+<div class="wrap">
+<div><p class="kick">SPANISH FORT, ALABAMA</p><h1>Floors that look newly laid, without the mess.</h1>
+<p>We bring a clean, low-dust refinishing process to your door. Tired boards get their warmth back, and you keep your home, your schedule and your replacement budget.</p>
+<div class="cta"><a class="btn" href="tel:2514236497">Call (251) 423-6497</a><a class="btn ghost" href="#services">Explore Services</a></div></div>
+<div class="stage"><div class="hero-img tilt" data-t="10"><img src="https://avatars.mds.yandex.net/i?id=f1854a978521935bb61db57b220f4692e9d37538-4984071-images-thumbs&n=13" alt="Refinished hardwood floor"><div class="badge"><b>Open 24/7</b>Ask for a free estimate</div></div></div>
+</div></div>
+
+<section class="alt"><div class="wrap"><div class="head center"><p class="kick">WHAT WE DO</p><h2>Our Services</h2><p class="lead">Four ways we bring tired floors back to life. Pick one to see how it works.</p></div>
+<div class="grid g4" id="homeServices"></div>
+<div class="center" style="margin-top:50px"><a class="btn" href="#services">Explore Services</a></div></div></section>
+
+<section><div class="wrap split"><div class="sc"><img src="https://miro.medium.com/v2/resize:fit:1358/1*gORl7ey78cfdJrFhjYu-7A.jpeg" alt="Restored wood floor color"></div>
+<div class="sc"><p class="kick">ABOUT US</p><h2>A local crew that treats your floor like furniture.</h2>
+<p>Mr Sandless Mobile is a Spanish Fort refinishing team built around one idea: a worn floor rarely needs to be torn out. With careful prep and quality coatings, we renew what is already there.</p>
+<p>Homeowners choose us for tidy work, honest advice and results that hold up to daily life.</p><a class="btn ghost" href="#about">Read Our Story</a></div></div></section>
+
+<section class="dark"><div class="wrap"><div class="head center"><p class="kick">WHY CHOOSE US</p><h2>The difference you will notice</h2></div>
+<div class="grid g4">
+<div class="box sc tilt" data-t="8"><h3>Low-Dust Method</h3><p>Furniture, vents and finished rooms stay cleaner while we work.</p></div>
+<div class="box sc tilt" data-t="8"><h3>Faster Turnaround</h3><p>Most rooms are refreshed in far less time than a full replacement.</p></div>
+<div class="box sc tilt" data-t="8"><h3>Durable Finishes</h3><p>Protective coats built for kids, pets and busy kitchens.</p></div>
+<div class="box sc tilt" data-t="8"><h3>Always Reachable</h3><p>Our line is open around the clock for quotes and questions.</p></div></div></div></section>
+
+<section><div class="wrap"><div class="head center"><p class="kick">CUSTOMER REVIEWS</p><h2>Neighbors who trust their floors to us</h2></div>
+<div class="grid g3">
+<div class="box rev sc tilt" data-t="8"><div class="stars">★★★★★</div><p>“Our oak floors had years of scuffs. The finished result looked brand new, and the house stayed remarkably clean.”</p><span>Melissa R., Spanish Fort</span></div>
+<div class="box rev sc tilt" data-t="8"><div class="stars">★★★★★</div><p>“The kitchen floor was the room I dreaded most. They finished quickly and it now handles daily traffic beautifully.”</p><span>Daniel T., Daphne</span></div>
+<div class="box rev sc tilt" data-t="8"><div class="stars">★★★★★</div><p>“Color came back richer than I expected. Friendly, punctual and easy to talk to from the first call.”</p><span>Angela W., Fairhope</span></div></div></div></section>
+
+<section class="alt"><div class="wrap" style="max-width:820px"><div class="head center"><p class="kick">FAQS</p><h2>Questions we hear often</h2></div>
+<details><summary>Do I need to replace my floors?</summary><p>Usually not. If the boards are structurally sound, refinishing restores the surface at a fraction of the cost and disruption.</p></details>
+<details><summary>How long does a refinishing project take?</summary><p>It depends on the size of the space and the finish chosen. We give you a clear timeline in your estimate.</p></details>
+<details><summary>Can I change the color of my floor?</summary><p>Yes. We can refresh the existing tone or move toward a lighter or deeper shade that suits your décor.</p></details>
+<details><summary>Do you work on kitchens?</summary><p>Absolutely. Kitchen floors get a tougher, moisture-aware finish designed for spills and heavy use.</p></details>
+<details><summary>How do I get a quote?</summary><p>Call (251) 423-6497 any time or send us a message from the contact page.</p></details></div></section>
+</div>
+
+<!-- ABOUT -->
+<div class="page" id="about">
+<div class="banner" style="--bimg:url('https://miro.medium.com/v2/resize:fit:1358/1*gORl7ey78cfdJrFhjYu-7A.jpeg')"><div class="wrap"><p class="kick">ABOUT US</p><h1>Craft, care and a cleaner way to refinish.</h1><p>Meet the team behind Spanish Fort’s mobile floor renewal service.</p></div></div>
+<section><div class="wrap split"><div><h2>Why we started</h2><p>We saw too many homeowners told that replacement was the only answer. In reality, most hardwood has years of life left under a tired finish.</p><p>So we built a service that comes to you, protects your space and delivers a surface that looks and feels refreshed. Every project starts with listening and ends with a walkthrough.</p>
+<ul class="ticks"><li>Honest, no-pressure estimates</li><li>Careful prep and protection of your home</li><li>Finishes chosen for how you really live</li><li>Support that answers day or night</li></ul><a class="btn" href="#contact">Book an Estimate</a></div>
+<img src="https://avatars.mds.yandex.net/i?id=666b89608195652392b82de19d1d0bfa582ed151-4901907-images-thumbs&n=13" alt="Floor refinishing in progress"></div></section>
+<section class="alt"><div class="wrap"><div class="head center"><h2>What guides our work</h2></div><div class="grid g3">
+<div class="box tilt" data-t="8"><h3>Respect</h3><p>Your home is not a job site. We keep it tidy and treat it with care.</p></div>
+<div class="box tilt" data-t="8"><h3>Quality</h3><p>Proper prep and trusted coatings so the result lasts.</p></div>
+<div class="box tilt" data-t="8"><h3>Clarity</h3><p>Clear pricing and plain-language advice, start to finish.</p></div></div></div></section>
+</div>
+
+<!-- SERVICES INDEX -->
+<div class="page" id="services">
+<div class="banner" style="--bimg:url('https://avatars.mds.yandex.net/i?id=f1854a978521935bb61db57b220f4692e9d37538-4984071-images-thumbs&n=13')"><div class="wrap"><p class="kick">SERVICES</p><h1>Every surface, renewed.</h1><p>Choose a service to see what is included and how we work.</p></div></div>
+<section><div class="wrap"><div class="grid g2" id="allServices"></div></div></section>
+</div>
+
+<!-- SERVICE PAGES (generated) -->
+<div id="svcPages"></div>
+
+<!-- AREAS -->
+<div class="page" id="areas">
+<div class="banner"><div class="wrap"><p class="kick">SERVICE AREAS</p><h1>Based in Spanish Fort. Working across the Eastern Shore.</h1><p>We travel to you. Not listed? Call and ask.</p></div></div>
+<section><div class="wrap"><div class="chips" id="chips"></div>
+<div style="margin-top:50px"><a class="btn" href="tel:2514236497">Check Your Area</a></div></div></section>
+</div>
+
+<!-- GALLERY -->
+<div class="page" id="gallery">
+<div class="banner"><div class="wrap"><p class="kick">GALLERY</p><h1>Floors we have brought back.</h1></div></div>
+<section><div class="wrap"><div class="gal" id="galGrid"></div></div></section>
+</div>
+
+<!-- CONTACT -->
+<div class="page" id="contact">
+<div class="banner"><div class="wrap"><p class="kick">CONTACT US</p><h1>Let’s talk about your floors.</h1><p>Call anytime or send the form. We reply fast.</p></div></div>
+<section><div class="wrap split" style="align-items:start">
+<div class="info"><div><small>ADDRESS</small>9812 Millwood Circle, Spanish Fort, AL 36527</div><div><small>PHONE</small><a href="tel:2514236497">(251) 423-6497</a></div><div><small>EMAIL</small><a href="mailto:info@mrsandlessmobile.com">info@mrsandlessmobile.com</a></div><div><small>WORKING HOURS</small>Open 24/7</div><div><small>WEBSITE</small><a href="https://mrsandlessmobile.com/" target="_blank" rel="noopener">mrsandlessmobile.com</a></div></div>
+<form onsubmit="event.preventDefault();location.href='mailto:info@mrsandlessmobile.com?subject=Estimate request from '+encodeURIComponent(this.n.value)+'&body='+encodeURIComponent(this.m.value+'\nPhone: '+this.p.value)">
+<input name="n" placeholder="Your name" required><input name="p" type="tel" placeholder="Phone number" required>
+<select><option>Hardwood Floors</option><option>Floor Refinishing</option><option>Restore Colors</option><option>Kitchen Floor Refinishing</option></select>
+<textarea name="m" rows="5" placeholder="Tell us about your floor" required></textarea><button class="btn">Send Request</button></form></div></section>
+</div>
+</main>
+
+<footer><div class="wrap"><div class="fg">
+<div><img src="https://mrsandlessmobile.com/wp-content/uploads/2025/11/cropped-logo.webp" alt="Mr Sandless Mobile"><p style="color:var(--mute);max-width:340px">Hardwood floor refinishing and restoration for Spanish Fort homeowners.</p></div>
+<div><h4>Quick Links</h4><ul><li><a href="#home">Home</a></li><li><a href="#about">About Us</a></li><li><a href="#services">Services</a></li><li><a href="#contact">Contact</a></li></ul></div>
+<div><h4>Contact Information</h4><ul><li>9812 Millwood Circle, Spanish Fort, AL 36527</li><li><a href="tel:2514236497">(251) 423-6497</a></li><li><a href="mailto:info@mrsandlessmobile.com">info@mrsandlessmobile.com</a></li><li>Working Hours: Open 24/7</li></ul></div>
+</div><div class="copy">© <span id="yr"></span> Mr Sandless Mobile. All rights reserved.</div></div></footer>
+
+<script>
+const IMG={h:"https://avatars.mds.yandex.net/i?id=f1854a978521935bb61db57b220f4692e9d37538-4984071-images-thumbs&n=13",f:"https://avatars.mds.yandex.net/i?id=666b89608195652392b82de19d1d0bfa582ed151-4901907-images-thumbs&n=13",c:"https://miro.medium.com/v2/resize:fit:1358/1*gORl7ey78cfdJrFhjYu-7A.jpeg",k:"https://avatars.mds.yandex.net/i?id=77a26d280439a2161c24c70492081cb58ba62b8d2581f1ee-12497467-images-thumbs&n=13"};
+const S=[
+{id:"hardwood-floors",t:"Hardwood Floors",img:IMG.h,s:"Bring dull, scratched boards back to a smooth, glowing finish.",tag:"Real wood deserves a second life.",
+p:["Hardwood is built to last generations, but daily wear dulls even the best boards. We clean, prepare and recoat so the grain shines again.","Our approach limits dust and disruption, so you can stay comfortable at home while the work happens."],
+f:["Surface cleaning and repair of minor damage","Low-dust preparation","Protective, easy-care topcoat","Final walkthrough with care tips"],
+st:[["Inspect","We assess wood type, wear and goals."],["Prepare","The surface is cleaned and readied."],["Finish","Quality coats are applied evenly."],["Cure","You get aftercare guidance."]]},
+{id:"floor-refinishing",t:"Floor Refinishing",img:IMG.f,s:"A complete refresh for floors that have lost their luster.",tag:"A full reset, minus the demolition.",
+p:["When scuffs, wear patterns and faded coatings take over, refinishing is the smartest reset. It renews the entire surface in a fraction of replacement time.","We tailor the sheen and protection level to your household, from quiet homes to busy families with pets."],
+f:["Complete surface renewal","Choice of matte, satin or gloss","Scratch and wear-pattern correction","Long-lasting protective finish"],
+st:[["Consult","Review the floor and pick a finish."],["Protect","Cover and seal off the work area."],["Refinish","Renew the surface layer by layer."],["Reveal","Walk the finished floor together."]]},
+{id:"restore-colors",t:"Restore Colors",img:IMG.c,s:"Revive faded, sun-bleached or uneven tones with rich color.",tag:"Warm tones, back where they belong.",
+p:["Sunlight, age and foot traffic can leave boards patchy and pale. Color renewal evens the tone and deepens the natural character of the wood.","Want a different look? We can guide you toward lighter or darker shades that suit your décor."],
+f:["Color matching and sampling","Even tone across the room","Fade and sun-damage correction","Custom shade options"],
+st:[["Sample","Test shades on your own floor."],["Select","Choose the tone you love."],["Apply","Color is applied with precision."],["Seal","A clear coat locks it in."]]},
+{id:"kitchen-floor-refinishing",t:"Kitchen Floor Refinishing",img:IMG.k,s:"Tough, spill-ready finishes for the hardest-working room.",tag:"Built for spills, steps and Sunday dinners.",
+p:["Kitchens take the most abuse: moisture, dropped pans and constant foot traffic. We refinish with durable coatings made to resist it.","The work is scheduled to keep disruption low, so your kitchen is back in action quickly."],
+f:["Moisture-aware protective finish","Scuff and scratch resistance","Minimal kitchen downtime","Easy-clean surface"],
+st:[["Plan","Map out access and timing."],["Clear","Prep the area with care."],["Coat","Apply a tough, sealed finish."],["Return","Resume cooking, worry-free."]]}];
+const $=s=>document.querySelector(s);
+const card=x=>`<div class="scard sc tilt" data-t="8"><img src="${x.img}" alt="${x.t}" loading="lazy"><div><h3>${x.t}</h3><p>${x.s}</p><a class="more" href="#${x.id}">View service</a></div></div>`;
+$("#homeServices").innerHTML=S.map(card).join("");
+$("#allServices").innerHTML=S.map(card).join("");
+$("#svcPages").innerHTML=S.map(x=>`<div class="page" id="${x.id}">
+<div class="banner" style="--bimg:url('${x.img}')"><div class="wrap"><p class="kick">SERVICES</p><h1>${x.t}</h1><p>${x.tag}</p></div></div>
+<section><div class="wrap split"><div><h2>${x.t} in Spanish Fort</h2>${x.p.map(p=>`<p>${p}</p>`).join("")}<ul class="ticks">${x.f.map(i=>`<li>${i}</li>`).join("")}</ul><a class="btn" href="#contact">Request a Quote</a></div><img src="${x.img}" alt="${x.t}"></div></section>
+<section class="alt"><div class="wrap"><div class="head center"><h2>How it works</h2></div><div class="grid g4 steps">${x.st.map(s=>`<div class="box sc tilt" data-t="8"><h3>${s[0]}</h3><p>${s[1]}</p></div>`).join("")}</div></div></section>
+<section><div class="wrap center"><h2>Other services</h2><div class="chips" style="justify-content:center;margin-top:20px">${S.filter(y=>y.id!=x.id).map(y=>`<a href="#${y.id}">${y.t}</a>`).join("")}</div></div></section></div>`).join("");
+$("#chips").innerHTML=["Spanish Fort","Daphne","Fairhope","Mobile","Foley","Gulf Shores","Orange Beach","Robertsdale","Bay Minette","Loxley","Point Clear","Montrose"].map(a=>`<a href="tel:2514236497">${a}, AL</a>`).join("");
+$("#galGrid").innerHTML=[IMG.h,IMG.c,IMG.k,IMG.f,IMG.k,IMG.h].map((u,i)=>`<img src="${u}" alt="Refinished floor project ${i+1}" loading="lazy">`).join("");
+$("#yr").textContent=new Date().getFullYear();
+/* router */
+function route(){const id=(location.hash||"#home").slice(1);const pg=document.getElementById(id);
+document.querySelectorAll(".page").forEach(p=>p.classList.remove("on"));
+(pg&&pg.classList.contains("page")?pg:$("#home")).classList.add("on");
+document.querySelectorAll("nav a").forEach(a=>a.classList.toggle("on",a.getAttribute("href")=="#"+id||(a.getAttribute("href")=="#services"&&S.some(x=>x.id==id))));
+document.querySelector("nav").classList.remove("open");window.scrollTo(0,0);setTimeout(observe,50)}
+addEventListener("hashchange",route);
+/* scroll reveal + progress */
+let io;function observe(){io&&io.disconnect();io=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}}),{threshold:.15});
+document.querySelectorAll(".page.on .sc").forEach((el,i)=>{el.style.transitionDelay=(i%4)*.1+"s";io.observe(el)})}
+addEventListener("scroll",()=>{const h=document.documentElement;$("#prog").style.width=h.scrollTop/(h.scrollHeight-h.clientHeight)*100+"%";
+ },{passive:true});
+/* mouse tilt */
+document.addEventListener("mousemove",e=>{const el=e.target.closest&&e.target.closest(".tilt");document.querySelectorAll(".tilt").forEach(t=>{if(t!==el&&t.dataset.h){t.dataset.h="";t.style.transform=""}});
+if(!el)return;const r=el.getBoundingClientRect(),m=+el.dataset.t||8;el.dataset.h=1;
+el.style.transform=`perspective(900px) rotateY(${((e.clientX-r.left)/r.width-.5)*m*2}deg) rotateX(${-((e.clientY-r.top)/r.height-.5)*m*2}deg)`});
+/* hero video: hide poster once video plays */
+const hv=document.getElementById("heroVideo");hv.addEventListener("playing",()=>document.querySelector(".hero .poster").style.display="none");hv.addEventListener("error",()=>{hv.style.display="none"});hv.querySelector("source").addEventListener("error",()=>{hv.style.display="none"});
+/* intro */
+route();addEventListener("load",()=>setTimeout(()=>$("#intro").classList.add("done"),2600));
+setTimeout(()=>$("#intro").classList.add("done"),4000);
+</script>
+</body>
+</html>
